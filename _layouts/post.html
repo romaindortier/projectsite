@@ -13,6 +13,29 @@
         {% if page.next %}
             <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
         {% endif %}
+<script>
+  new juicebox({
+    containerId : "juicebox-container",
+    galleryWidth: "100%",
+    galleryHeight: "100%",
+    backgroundColor: "#222222"
+  });
+
+// immgbox background color
+var bg_color_img_box = 'rgba(0,0,0,0.9)'
+
+// hides scrollbars
+var allow_hide_scroll_img_box = 'yes'
+
+// enables fade in/out animations
+var use_fade_inout_img_box = 'yes'
+
+// animation speed
+var speed_img_box = 0.08
+
+// z-index
+var z_index_dv_img_box = 999
+</script>
     </head>
     <body>
         <div class="book">
@@ -50,6 +73,8 @@
 
         {%- include footer.html -%}
 
+    <script type="text/javascript" src="/assets/js/img_box.js"></script>
+    <script type="text/javascript" src="/assets/js/juicebox/juicebox.js"></script>
     <script type="text/javascript" src="/assets/js/fslightbox.js"></script>
     <script type="text/javascript" src="/assets/lightbox/js/lightbox.min.js"></script>
     <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css">
