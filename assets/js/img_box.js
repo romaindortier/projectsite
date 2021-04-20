@@ -1,4 +1,4 @@
-var bg_color_img_box = 'rgba(0,0,0,0.9)'
+var bg_color_img_box = 'white'
 var allow_hide_scroll_img_box = 'yes'
 var use_fade_inout_img_box = 'yes'
 var speed_img_box = 0.08
