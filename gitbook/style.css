@@ -19,6 +19,8 @@
 }
 
 .text{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
   position: absolute;
   top: 50%;
   left: 50%;
