@@ -1,4 +1,4 @@
-#overlay {
+.overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -12,10 +12,17 @@
   cursor: pointer;
 }
 
-#text{
+.markdown-section #cadence_overlay table td{
+	padding:unset;
+	width:5%;
+  
+}
+
+.text{
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
   font-size: 13px;
   color: white;
   transform: translate(-50%,-50%);
