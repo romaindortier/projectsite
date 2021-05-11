@@ -13,12 +13,6 @@ td {
     text-align:center;
     font-family: Courier;
     color: black;
-
-td {
-    width:auto;
-    text-align:center;
-    font-family: Courier;
-    color: black;
     font-size: 8px;
 }
 
@@ -28,7 +22,7 @@ td {
 }
 
 .fourblocks tr:nth-child(1) td{
-border: 0px;
+    border: 0px;
     border-bottom: 1px solid #EEEEEE;
 }
 
@@ -107,6 +101,30 @@ tr:nth-child(1) td {
 }
 
 
+.fiveblocks tr:nth-child(2) td,
+.fiveblocks tr:nth-child(4) td{
+    color: gray;
+}
+
+.fiveblocks tr:nth-child(1) td{
+border: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.sixblocks tr:nth-child(1) td:nth-child(1), 
+.sixblocks tr:nth-child(2) td:nth-child(1), 
+.sixblocks tr:nth-child(4) td:nth-child(1), 
+.sixblocks tr:nth-child(3) td:nth-child(1) {     
+    border-left: 1px solid black;
+}
+
+.sixblocks tr:nth-child(1) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(2) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(4) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(3) td:nth-of-type(6n) {     
+    border-right: 1px solid black;
+}
+
 </style>
 <table class="fourblocks">
 <tr>
@@ -154,14 +172,14 @@ tr:nth-child(1) td {
 <table class="fiveblocks">
 <tr>
     <td>&nbsp;I&nbsp;</td>
-    <td><b>ma</b></td>
+    <td><b>ma&nbsp;</b></td>
     <td>gine</td>
     <td>toi</td>
-    <td>un</td>
+    <td>un&nbsp;</td>
     <td><b>gros</b></td>
-    <td>la</td>
+    <td>lar</td>
     <td>pin</td>
-    <td>la</td>
+    <td>pou</td>
     <td>pin</td>
 </tr>
 <tr>
@@ -199,5 +217,40 @@ tr:nth-child(1) td {
     <td>18</td>
     <td>19</td>
     <td>20</td>
+</tr>
+</table>
+
+<table class="sixblocks">
+<tr>
+    <td>gine</td>
+    <td>toi</td>
+    <td>la</td>
+    <td>pin</td>
+    <td>la</td>
+    <td>pin</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>a</td>
+    <td>vec</td>
+    <td>un</td>
+    <td>chat</td>
+    <td>tout</td>
+    <td>gen</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
 </tr>
 </table>
