@@ -14,11 +14,12 @@ td {
     color: black;
 }
 
-tr:nth-child(2) td, tr:nth-child(4) td{
+.fourblocks tr:nth-child(2) td,
+.fourblocks tr:nth-child(4) td{
     color: gray;
 }
 
-tr:nth-child(1) td {
+.fourblocks tr:nth-child(1) td{
 border: 0px;
     border-bottom: 1px solid #EEEEEE;
 }
@@ -30,26 +31,76 @@ tr:nth-child(1) td {
 }
 */
 
-
-tr:nth-child(1) td, tr:nth-child(2) td, tr:nth-child(3) td, tr:nth-child(4) td {
+.fourblocks tr:nth-child(1) td, 
+.fourblocks tr:nth-child(2) td, 
+.fourblocks tr:nth-child(3) td, 
+.fourblocks tr:nth-child(4) td {
     border-left: 1px solid #EEEEEE;  
 }
 
 
-tr:nth-child(2) td:nth-child(1), tr:nth-child(1) td:nth-child(1), tr:nth-child(4) td:nth-child(1), tr:nth-child(3) td:nth-child(1) {     
+.fourblocks tr:nth-child(4) td,
+.fourblocks tr:nth-child(2) td:nth-child(1), 
+.fourblocks tr:nth-child(1) td:nth-child(1), 
+.fourblocks tr:nth-child(4) td:nth-child(1), 
+.fourblocks tr:nth-child(3) td:nth-child(1) {     
     border-left: 1px solid black;
 }
 
-tr:nth-child(2) td:nth-of-type(4n), tr:nth-child(1) td:nth-of-type(4n), tr:nth-child(4) td:nth-of-type(4n), tr:nth-child(3) td:nth-of-type(4n) {     
+.fourblocks tr:nth-child(2) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(1) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(4) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(3) td:nth-of-type(4n) {     
     border-right: 1px solid black;
 }
 
-td:nth-child(2) {
-    border-bottom: 0px solid black;
+
+
+
+
+.fiveblocks tr:nth-child(2) td,
+.fiveblocks tr:nth-child(4) td{
+    color: gray;
 }
 
+.fiveblocks tr:nth-child(1) td{
+border: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/*
+tr:nth-child(1) td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+*/
+
+.fiveblocks tr:nth-child(1) td, 
+.fiveblocks tr:nth-child(2) td, 
+.fiveblocks tr:nth-child(3) td, 
+.fiveblocks tr:nth-child(4) td {
+    border-left: 1px solid #EEEEEE;  
+}
+
+
+.fiveblocks tr:nth-child(5) td,
+.fiveblocks tr:nth-child(2) td:nth-child(1), 
+.fiveblocks tr:nth-child(1) td:nth-child(1), 
+.fiveblocks tr:nth-child(4) td:nth-child(1), 
+.fiveblocks tr:nth-child(3) td:nth-child(1) {     
+    border-left: 1px solid black;
+}
+
+.fiveblocks tr:nth-child(2) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(1) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(4) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(3) td:nth-of-type(5n) {     
+    border-right: 1px solid black;
+}
+
+
 </style>
-<table>
+<table class="fourblocks">
 <tr>
     <td>&nbsp;I&nbsp;</td>
     <td><b>ma</b></td>
@@ -89,5 +140,56 @@ td:nth-child(2) {
     <td>14</td>
     <td>15</td>
     <td>16</td>
+</tr>
+</table>
+
+<table class="fiveblocks">
+<tr>
+    <td>&nbsp;I&nbsp;</td>
+    <td><b>ma</b></td>
+    <td>gine</td>
+    <td>toi</td>
+    <td>un</td>
+    <td><b>gros</b></td>
+    <td>la</td>
+    <td>pin</td>
+    <td>la</td>
+    <td>pin</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>a</td>
+    <td><b>vec</b></td>
+    <td>un</td>
+    <td>chat</td>
+    <td>tout</td>
+    <td><b>gen</b></td>
+    <td>til</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
 </tr>
 </table>
