@@ -1,0 +1,135 @@
+.markdown-section table td, .markdown-section table th {
+    padding: 0px;
+    font-size: 75%;
+}
+
+table{  
+  table-layout: fixed;
+  border-collapse:collapse;
+  width: 100%;
+}
+td {
+    width:auto;
+    text-align:center;
+    font-family: Courier;
+    color: black;
+    font-size: 8px;
+}
+
+.fourblocks tr:nth-child(2) td,
+.fourblocks tr:nth-child(4) td{
+    color: gray;
+}
+
+.fourblocks tr:nth-child(1) td{
+    border: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/*
+tr:nth-child(1) td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+*/
+
+.fourblocks tr:nth-child(1) td, 
+.fourblocks tr:nth-child(2) td, 
+.fourblocks tr:nth-child(3) td, 
+.fourblocks tr:nth-child(4) td {
+    border-left: 1px solid #EEEEEE;  
+}
+
+
+.fourblocks tr:nth-child(4) td,
+.fourblocks tr:nth-child(2) td:nth-child(1), 
+.fourblocks tr:nth-child(1) td:nth-child(1), 
+.fourblocks tr:nth-child(4) td:nth-child(1), 
+.fourblocks tr:nth-child(3) td:nth-child(1) {     
+    border-left: 1px solid black;
+}
+
+.fourblocks tr:nth-child(2) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(1) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(4) td:nth-of-type(4n), 
+.fourblocks tr:nth-child(3) td:nth-of-type(4n) {     
+    border-right: 1px solid black;
+}
+
+
+
+
+
+.fiveblocks tr:nth-child(2) td,
+.fiveblocks tr:nth-child(4) td{
+    color: gray;
+}
+
+.fiveblocks tr:nth-child(1) td{
+border: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/*
+tr:nth-child(1) td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+*/
+
+.fiveblocks tr:nth-child(1) td, 
+.fiveblocks tr:nth-child(2) td, 
+.fiveblocks tr:nth-child(3) td, 
+.fiveblocks tr:nth-child(4) td {
+    border-left: 1px solid #EEEEEE;  
+}
+
+
+.fiveblocks tr:nth-child(5) td,
+.fiveblocks tr:nth-child(2) td:nth-child(1), 
+.fiveblocks tr:nth-child(1) td:nth-child(1), 
+.fiveblocks tr:nth-child(4) td:nth-child(1), 
+.fiveblocks tr:nth-child(3) td:nth-child(1) {     
+    border-left: 1px solid black;
+}
+
+.fiveblocks tr:nth-child(2) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(1) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(4) td:nth-of-type(5n), 
+.fiveblocks tr:nth-child(3) td:nth-of-type(5n) {     
+    border-right: 1px solid black;
+}
+
+
+.fiveblocks tr:nth-child(2) td,
+.fiveblocks tr:nth-child(4) td{
+    color: gray;
+}
+
+.fiveblocks tr:nth-child(1) td{
+border: 0px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.fiveblocks tr:nth-child(3) td:nth-child(n+6)
+{
+   color:red;
+}
+
+.sixblocks tr:nth-child(1) td:nth-child(1), 
+.sixblocks tr:nth-child(2) td:nth-child(1), 
+.sixblocks tr:nth-child(4) td:nth-child(1), 
+.sixblocks tr:nth-child(3) td:nth-child(1) {     
+    border-left: 1px solid black;
+}
+
+.sixblocks tr:nth-child(1) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(2) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(4) td:nth-of-type(6n), 
+.sixblocks tr:nth-child(3) td:nth-of-type(6n) {     
+    border-right: 1px solid black;
+}
+
+.traine{
+  color: red;
+}
