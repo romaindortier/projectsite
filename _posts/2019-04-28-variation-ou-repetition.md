@@ -1,5 +1,5 @@
 ---
-title: Variation ou répétition de motifs ?
+title: Variation ou répétition de motifs sssss ?
 date: 2019-04-28
 category: Jekyll
 layout: post

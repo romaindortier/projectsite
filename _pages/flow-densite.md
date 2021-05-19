@@ -22,5 +22,3 @@ Avoir à faire des rimes trop fréquemment laisse trop peu d'espace, on aura ten
 Bien sûr, il est généralement souhaitable d’utiliser plusieurs motifs de flow dans une même chanson pour éviter la monotonie. 
 
 Jouer avec tension et détente
-
-Motif de flow lent sur une tempo rapide : cela ne marche pas
