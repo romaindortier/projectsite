@@ -45,4 +45,4 @@ collections:
 plugins:
   - jemoji
 
-theme: jekyll-theme-slate
+theme: just-the-docs

@@ -106,14 +106,10 @@ tr:nth-child(1) td {
     color: gray;
 }
 
-.fiveblocks tr:nth-child(1) td{
-border: 0px;
-    border-bottom: 1px solid #EEEEEE;
-}
 
-.fiveblocks tr:nth-child(3) td:nth-child(n+6)
+.fiveblocks tr:nth-child(3) td:nth-child(n+6), .tablegend .traine
 {
-   color:red;
+  color: green;
 }
 
 .sixblocks tr:nth-child(1) td:nth-child(1), 
@@ -130,6 +126,8 @@ border: 0px;
     border-right: 1px solid black;
 }
 
-.traine{
-  color: red;
+
+.tablegend{
+  font-size: 90%;
+  margin-bottom:30px;
 }
