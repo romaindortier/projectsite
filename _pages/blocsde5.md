@@ -1,14 +1,11 @@
 ---
-title: Blocs de 5
-author: Tao He
-date: 2019-04-27
+title: Quelques sons
+date: 2020-05-28
 category: Jekyll
 layout: post
-youtubeId: 92v1utZ178w
-vimeoId: 503861776
 ---
 
-## Carastérique du flow, ses qualités
+### Effets
 
 {% include embed-audio.html src="MagicalTwinkle_S08CT.108.wav" %}
 {% include embed-audio.html src="TrumpetSad_BW.3924.wav" %}
@@ -20,6 +17,9 @@ vimeoId: 503861776
 {% include embed-audio.html src="GhostHover_SEU03.6.wav" %}
 {% include embed-audio.html src="XylophoneSneaky_S08CT.985.wav" %}
 {% include embed-audio.html src="MagicalCrescendo_S08CT.104.wav" %}
+
+### Instruments
+
 {% include embed-audio.html src="MagicChimeSpooky_SFXB.362.wav" %}
 {% include embed-audio.html src="Glockenspiel_S08CT.89.wav" %}
 {% include embed-audio.html src="Glockenspiel_S08CT.90.wav" %}

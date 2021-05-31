@@ -15,28 +15,11 @@
             </li>
 
             <li class="divider"></li>
-
-            {% assign reversed_posts = site.posts | reverse %}
-
-            {% for post in reversed_posts %}
-                {% if page.url == post.url %}
-                <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
-                {% else %}
-                <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
-                {% endif %}
-                    <a href="{{site.baseurl}}{{post.url}}">
-                        {{ post.title | escape }}
-                    </a>
-                </li>
-            {% endfor %}
+                <li class="chapter active" data-level="1.1" data-path="{{ site.baseurl }}{% link _pages/blocsde5.md %}">
+                <a href="{{site.baseurl}}{{post.url}}">Quelques sons</a>
+            </li>
 
             <li class="divider"></li>
-
-            <li>
-                <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
-                    Fork it Now!
-                </a>
-            </li>
         </ul>
     </nav>
 </div>
