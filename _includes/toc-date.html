@@ -9,14 +9,14 @@
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
-                <a href="{{site.baseurl}}">
+                <a href="{{site.baseurl}}/">
                     {{ site.title | escape }}
                 </a>
             </li>
 
             <li class="divider"></li>
                 <li class="chapter active" data-level="1.1" data-path="{{ site.baseurl }}{% link _pages/blocsde5.md %}">
-                <a href="{{site.baseurl}}{{post.url}}">Quelques sons</a>
+                <a href="{{ site.baseurl }}{% link _pages/blocsde5.md %}">Quelques sons</a>
             </li>
 
             <li class="divider"></li>
